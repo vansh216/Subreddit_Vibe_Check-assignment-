@@ -1,121 +1,61 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
+import SearchBar from "./components/SearchBar";
+import VibeSummary from "./components/VibeSummary";
+import SentimentChart from "./components/SentimentChart";
+import PostList from "./components/PostList";
+import LoadingState from "./components/LoadingState";
+import { useSubredditData } from "./hooks/useSubredditData";
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+    const { posts, summary, subreddit, isLoading, error, analyzeSubreddit } = useSubredditData();
+    const hasSearched = posts.length > 0 || isLoading || Boolean(error);
 
   return (
-    <>
-      <section id="center">
-        <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
-        </div>
-        <div>
-          <h1>Get started</h1>
-          <p>
-            Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
+   <div className="min-h-screen bg-zinc-950 px-4 py-10 sm:py-16">
+      <div className="mx-auto flex max-w-xl flex-col items-center gap-8">
+        {/* Header */}
+        <div className="flex flex-col items-center gap-2 text-center">
+          <h1 className="flex items-center gap-2 text-3xl font-extrabold text-zinc-50 sm:text-4xl">
+            <span className="text-[#FF4500]">●</span> Subreddit Vibe Check
+          </h1>
+          <p className="max-w-sm text-sm text-zinc-500">
+            Enter any subreddit to analyze the mood of its top 50 hot posts.
           </p>
         </div>
-        <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button>
-      </section>
-
-      <div className="ticks"></div>
-
-      <section id="next-steps">
-        <div id="docs">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#documentation-icon"></use>
-          </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
-          <ul>
-            <li>
-              <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
-              </a>
-            </li>
-            <li>
-              <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div id="social">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
-          </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
-          <ul>
-            <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#github-icon"></use>
-                </svg>
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Discord
-              </a>
-            </li>
-            <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
-              </a>
-            </li>
-            <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                Bluesky
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <div className="ticks"></div>
-      <section id="spacer"></section>
-    </>
+ 
+        {/* Search input */}
+        <SearchBar onSearch={analyzeSubreddit} isLoading={isLoading} />
+ 
+        {/* Error message */}
+        {error && (
+          <div className="w-full max-w-xl rounded-xl border border-rose-500/30 bg-rose-500/10 px-4 py-3 text-sm text-rose-400">
+            {error}
+          </div>
+        )}
+ 
+        {/* Loading state */}
+        {isLoading && <LoadingState />}
+ 
+        {/* Results */}
+        {!isLoading && summary && (
+          <>
+            <VibeSummary subreddit={subreddit} summary={summary} />
+            <SentimentChart summary={summary} />
+            <PostList posts={posts} />
+          </>
+        )}
+ 
+        {/* Empty state (before any search) */}
+        {!hasSearched && (
+          <p className="mt-4 text-sm text-zinc-600">
+            Try something like{" "}
+            <span className="font-medium text-zinc-400">technology</span>,{" "}
+            <span className="font-medium text-zinc-400">funny</span>, or{" "}
+            <span className="font-medium text-zinc-400">worldnews</span>.
+          </p>
+        )}
+      </div>
+    </div>
   )
 }
 
