@@ -2,11 +2,15 @@ import { useState, useCallback } from "react";
 import { fetchHotPosts } from "../services/redditApi";
 import { analyzeSentiment, aggregateSentiment } from "../utils/sentimentAnalyzer";
 
-
+/**
+ * Custom hook that ties together fetching, sentiment analysis, and
+ * loading/error/result state for the UI.
+ */
 export function useSubredditData() {
-  const [posts, setPosts] = useState([]);       
-  const [summary, setSummary] = useState(null);  
-  const [subreddit, setSubreddit] = useState(""); 
+  const [posts, setPosts] = useState([]);
+  const [summary, setSummary] = useState(null);
+  const [subreddit, setSubreddit] = useState("");
+  const [source, setSource] = useState(null); // "live" | "cached_sample" | null
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
 
@@ -15,25 +19,24 @@ export function useSubredditData() {
     setError(null);
 
     try {
-      // 1. Fetch raw posts from Reddit
-      const rawPosts = await fetchHotPosts(subredditName, 50);
+      const { posts: rawPosts, source: dataSource } = await fetchHotPosts(subredditName, 50);
 
-      // 2. Run sentiment analysis on each post title
       const postsWithSentiment = rawPosts.map((post) => ({
         ...post,
         sentiment: analyzeSentiment(post.title),
       }));
 
-      // 3. Aggregate into an overall vibe summary
       const overallSummary = aggregateSentiment(postsWithSentiment);
 
       setPosts(postsWithSentiment);
       setSummary(overallSummary);
       setSubreddit(subredditName.trim().replace(/^r\//i, ""));
+      setSource(dataSource);
     } catch (err) {
       setError(err.message || "Something went wrong. Please try again.");
       setPosts([]);
       setSummary(null);
+      setSource(null);
     } finally {
       setIsLoading(false);
     }
@@ -43,6 +46,7 @@ export function useSubredditData() {
     setPosts([]);
     setSummary(null);
     setSubreddit("");
+    setSource(null);
     setError(null);
   }, []);
 
@@ -50,6 +54,7 @@ export function useSubredditData() {
     posts,
     summary,
     subreddit,
+    source,
     isLoading,
     error,
     analyzeSubreddit,
