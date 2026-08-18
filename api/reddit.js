@@ -1,16 +1,24 @@
 // api/reddit.js
-// Requires two environment variables set in your Vercel project:
-//   REDDIT_CLIENT_ID
-//   REDDIT_CLIENT_SECRET
 //
-// Frontend calls: /api/reddit?subreddit=technology&limit=50
+// Vercel serverless function.
+//
+// Tries live Reddit OAuth first (client_credentials flow). Reddit's new
+// "Responsible Builder Policy" now requires manual approval for API
+// access, so if credentials aren't approved yet, this falls back to a
+// cached sample dataset stored in /sample-data so the app remains fully
+// demonstrable end-to-end.
+//
+// The real OAuth code below is fully functional and will be used
+// automatically the moment REDDIT_CLIENT_ID / REDDIT_CLIENT_SECRET are
+// set to approved credentials — nothing else needs to change.
+
+import fs from "fs";
+import path from "path";
 
 let cachedToken = null;
 let cachedTokenExpiry = 0;
 
 async function getAccessToken() {
-  // Reuse the token until it's close to expiring, instead of requesting
-  // a new one on every single request.
   if (cachedToken && Date.now() < cachedTokenExpiry) {
     return cachedToken;
   }
@@ -36,15 +44,51 @@ async function getAccessToken() {
 
   if (!tokenResponse.ok) {
     const text = await tokenResponse.text();
-    throw new Error(`Failed to get Reddit access token (${tokenResponse.status}): ${text.slice(0, 200)}`);
+    throw new Error(`Token request failed (${tokenResponse.status}): ${text.slice(0, 200)}`);
   }
 
   const tokenData = await tokenResponse.json();
   cachedToken = tokenData.access_token;
-  // expires_in is in seconds; refresh a bit early (60s buffer)
   cachedTokenExpiry = Date.now() + (tokenData.expires_in - 60) * 1000;
 
   return cachedToken;
+}
+
+async function fetchLiveFromReddit(cleanSubreddit, limit) {
+  const accessToken = await getAccessToken();
+
+  const redditUrl = `https://oauth.reddit.com/r/${cleanSubreddit}/hot?limit=${limit}&raw_json=1`;
+
+  const redditResponse = await fetch(redditUrl, {
+    headers: {
+      Authorization: `Bearer ${accessToken}`,
+      "User-Agent": "web:subreddit-vibe-check:1.0 (by /u/vibecheck_dev)",
+    },
+  });
+
+  const rawText = await redditResponse.text();
+
+  if (!redditResponse.ok) {
+    throw new Error(`Reddit responded with status ${redditResponse.status}: ${rawText.slice(0, 200)}`);
+  }
+
+  const data = JSON.parse(rawText);
+
+  const childrenCount = data?.data?.children?.length ?? 0;
+  if (childrenCount === 0) {
+    throw new Error("Reddit returned an empty post listing.");
+  }
+
+  return data;
+}
+
+function loadSampleData(cleanSubreddit) {
+  const filePath = path.join(process.cwd(), "sample-data", `${cleanSubreddit.toLowerCase()}-hot.json`);
+  if (!fs.existsSync(filePath)) {
+    return null;
+  }
+  const raw = fs.readFileSync(filePath, "utf-8");
+  return JSON.parse(raw);
 }
 
 export default async function handler(req, res) {
@@ -56,47 +100,21 @@ export default async function handler(req, res) {
 
   const cleanSubreddit = subreddit.trim().replace(/^r\//i, "");
 
+  // 1. Try live Reddit OAuth first
   try {
-    const accessToken = await getAccessToken();
+    const liveData = await fetchLiveFromReddit(cleanSubreddit, limit);
+    return res.status(200).json({ ...liveData, _source: "live" });
+  } catch (liveError) {
+    // 2. Fall back to cached sample data if live fetch fails
+    const sampleData = loadSampleData(cleanSubreddit);
 
-    const redditUrl = `https://oauth.reddit.com/r/${cleanSubreddit}/hot?limit=${limit}&raw_json=1`;
+    if (sampleData) {
+      return res.status(200).json({ ...sampleData, _source: "cached_sample" });
+    }
 
-    const redditResponse = await fetch(redditUrl, {
-      headers: {
-        Authorization: `Bearer ${accessToken}`,
-        "User-Agent": "web:subreddit-vibe-check:1.0 (by /u/vibecheck_dev)",
-      },
+    return res.status(502).json({
+      error: `No live or cached data available for r/${cleanSubreddit}.`,
+      details: liveError.message,
     });
-
-    const rawText = await redditResponse.text();
-
-    if (!redditResponse.ok) {
-      return res.status(redditResponse.status).json({
-        error: `Reddit responded with status ${redditResponse.status}`,
-        details: rawText.slice(0, 300),
-      });
-    }
-
-    let data;
-    try {
-      data = JSON.parse(rawText);
-    } catch {
-      return res.status(502).json({
-        error: "Reddit returned an unexpected (non-JSON) response.",
-        details: rawText.slice(0, 300),
-      });
-    }
-
-    const childrenCount = data?.data?.children?.length ?? 0;
-    if (childrenCount === 0) {
-      return res.status(502).json({
-        error: "Reddit returned an empty post listing.",
-        details: JSON.stringify(data).slice(0, 300),
-      });
-    }
-
-    return res.status(200).json(data);
-  } catch (error) {
-    return res.status(500).json({ error: "Failed to fetch from Reddit.", details: error.message });
   }
 }
