@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "api/reddit.js": {
+      "includeFiles": "sample-data/**"
+    }
+  }
+}
