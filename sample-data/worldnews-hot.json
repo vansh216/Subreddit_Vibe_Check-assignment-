@@ -1,0 +1,174 @@
+{
+  "kind": "Listing",
+  "data": {
+    "after": null,
+    "before": null,
+    "children": [
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0000",
+          "title": "Diplomatic talks resume after months of tension",
+          "score": 8234,
+          "num_comments": 567,
+          "author": "worldwatcher",
+          "permalink": "/r/sample/comments/samp0000/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0001",
+          "title": "Historic agreement reached on climate cooperation",
+          "score": 12456,
+          "num_comments": 891,
+          "author": "climatenews",
+          "permalink": "/r/sample/comments/samp0001/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0002",
+          "title": "Economic sanctions cause widespread hardship for citizens",
+          "score": 6789,
+          "num_comments": 1234,
+          "author": "econwatch",
+          "permalink": "/r/sample/comments/samp0002/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0003",
+          "title": "Volunteers rebuild homes after devastating flooding",
+          "score": 5432,
+          "num_comments": 345,
+          "author": "reliefwork",
+          "permalink": "/r/sample/comments/samp0003/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0004",
+          "title": "Tensions rise along disputed border region",
+          "score": 9876,
+          "num_comments": 1456,
+          "author": "geopolitics_daily",
+          "permalink": "/r/sample/comments/samp0004/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0005",
+          "title": "New leader promises sweeping reforms after election",
+          "score": 7654,
+          "num_comments": 678,
+          "author": "electionwatch",
+          "permalink": "/r/sample/comments/samp0005/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0006",
+          "title": "Aid organizations struggle to reach affected communities",
+          "score": 4321,
+          "num_comments": 456,
+          "author": "humanitarian_news",
+          "permalink": "/r/sample/comments/samp0006/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0007",
+          "title": "Breakthrough vaccine trial shows promising results",
+          "score": 11234,
+          "num_comments": 723,
+          "author": "healthnews",
+          "permalink": "/r/sample/comments/samp0007/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0008",
+          "title": "Protests continue over controversial new legislation",
+          "score": 8765,
+          "num_comments": 1567,
+          "author": "protestwatch",
+          "permalink": "/r/sample/comments/samp0008/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0009",
+          "title": "Trade deal expected to boost regional economies",
+          "score": 6543,
+          "num_comments": 389,
+          "author": "tradewatch",
+          "permalink": "/r/sample/comments/samp0009/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0010",
+          "title": "Refugee crisis worsens as conflict enters third year",
+          "score": 9012,
+          "num_comments": 1789,
+          "author": "crisiswatch",
+          "permalink": "/r/sample/comments/samp0010/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0011",
+          "title": "Scientists warn of accelerating ice sheet melt",
+          "score": 10234,
+          "num_comments": 934,
+          "author": "climatescience",
+          "permalink": "/r/sample/comments/samp0011/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0012",
+          "title": "Ceasefire holds for second week despite violations",
+          "score": 7890,
+          "num_comments": 1123,
+          "author": "conflictnews",
+          "permalink": "/r/sample/comments/samp0012/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0013",
+          "title": "Corruption scandal topples government coalition",
+          "score": 8234,
+          "num_comments": 1345,
+          "author": "politicalnews",
+          "permalink": "/r/sample/comments/samp0013/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0014",
+          "title": "Historic peace treaty signed after decades of conflict",
+          "score": 15678,
+          "num_comments": 1987,
+          "author": "peacewatch",
+          "permalink": "/r/sample/comments/samp0014/post/"
+        }
+      }
+    ]
+  }
+}

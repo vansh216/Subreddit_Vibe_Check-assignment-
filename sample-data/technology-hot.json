@@ -1,0 +1,559 @@
+{
+  "kind": "Listing",
+  "data": {
+    "after": null,
+    "before": null,
+    "children": [
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0000",
+          "title": "New AI model beats previous benchmarks by a wide margin",
+          "score": 15234,
+          "num_comments": 892,
+          "author": "techwatcher",
+          "permalink": "/r/sample/comments/samp0000/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0001",
+          "title": "This startup's battery breakthrough could change everything",
+          "score": 9821,
+          "num_comments": 431,
+          "author": "future_tech",
+          "permalink": "/r/sample/comments/samp0001/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0002",
+          "title": "Why I switched back to a flip phone and love it",
+          "score": 7654,
+          "num_comments": 1203,
+          "author": "digital_minimalist",
+          "permalink": "/r/sample/comments/samp0002/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0003",
+          "title": "Major security flaw found in popular router brand",
+          "score": 6543,
+          "num_comments": 567,
+          "author": "sec_researcher",
+          "permalink": "/r/sample/comments/samp0003/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0004",
+          "title": "The new operating system update is a disaster for users",
+          "score": 5432,
+          "num_comments": 998,
+          "author": "angryuser22",
+          "permalink": "/r/sample/comments/samp0004/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0005",
+          "title": "Scientists achieve incredible breakthrough in quantum computing",
+          "score": 12098,
+          "num_comments": 654,
+          "author": "quantumfan",
+          "permalink": "/r/sample/comments/samp0005/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0006",
+          "title": "My laptop died and customer support was amazing",
+          "score": 3421,
+          "num_comments": 289,
+          "author": "happycustomer",
+          "permalink": "/r/sample/comments/samp0006/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0007",
+          "title": "Terrible experience with this company's warranty process",
+          "score": 4210,
+          "num_comments": 712,
+          "author": "frustrated_buyer",
+          "permalink": "/r/sample/comments/samp0007/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0008",
+          "title": "Open source project reaches 1 million downloads milestone",
+          "score": 8765,
+          "num_comments": 321,
+          "author": "oss_lover",
+          "permalink": "/r/sample/comments/samp0008/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0009",
+          "title": "This app is draining my battery like crazy, anyone else?",
+          "score": 2987,
+          "num_comments": 543,
+          "author": "batteryissues",
+          "permalink": "/r/sample/comments/samp0009/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0010",
+          "title": "Incredible robotics demo shows amazing dexterity",
+          "score": 11023,
+          "num_comments": 445,
+          "author": "robo_enthusiast",
+          "permalink": "/r/sample/comments/samp0010/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0011",
+          "title": "Company lays off thousands amid restructuring",
+          "score": 6789,
+          "num_comments": 1456,
+          "author": "newsbot99",
+          "permalink": "/r/sample/comments/samp0011/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0012",
+          "title": "Best budget laptop I've ever owned, highly recommend",
+          "score": 4532,
+          "num_comments": 234,
+          "author": "budget_shopper",
+          "permalink": "/r/sample/comments/samp0012/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0013",
+          "title": "Why does every website need a subscription now?",
+          "score": 5678,
+          "num_comments": 890,
+          "author": "tiredofpaying",
+          "permalink": "/r/sample/comments/samp0013/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0014",
+          "title": "Developer creates amazing tool that saves hours of work",
+          "score": 9432,
+          "num_comments": 312,
+          "author": "devlife",
+          "permalink": "/r/sample/comments/samp0014/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0015",
+          "title": "Data breach exposes millions of user records",
+          "score": 7890,
+          "num_comments": 1023,
+          "author": "privacyfirst",
+          "permalink": "/r/sample/comments/samp0015/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0016",
+          "title": "This new chip design is genuinely impressive",
+          "score": 6234,
+          "num_comments": 278,
+          "author": "hardwarenerd",
+          "permalink": "/r/sample/comments/samp0016/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0017",
+          "title": "Scam alert: fake tech support calls on the rise again",
+          "score": 3456,
+          "num_comments": 654,
+          "author": "scamwatch",
+          "permalink": "/r/sample/comments/samp0017/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0018",
+          "title": "Loving my new mechanical keyboard, best purchase this year",
+          "score": 2345,
+          "num_comments": 156,
+          "author": "keyboardfan",
+          "permalink": "/r/sample/comments/samp0018/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0019",
+          "title": "Cloud outage takes down half the internet for hours",
+          "score": 10234,
+          "num_comments": 1876,
+          "author": "outage_tracker",
+          "permalink": "/r/sample/comments/samp0019/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0020",
+          "title": "Fantastic tutorial explains complex topic so clearly",
+          "score": 4123,
+          "num_comments": 198,
+          "author": "learner2024",
+          "permalink": "/r/sample/comments/samp0020/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0021",
+          "title": "Why this popular framework is losing developer trust",
+          "score": 5987,
+          "num_comments": 723,
+          "author": "codecritic",
+          "permalink": "/r/sample/comments/samp0021/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0022",
+          "title": "Amazing open-source alternative to expensive software",
+          "score": 8123,
+          "num_comments": 401,
+          "author": "foss_advocate",
+          "permalink": "/r/sample/comments/samp0022/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0023",
+          "title": "My smart home setup finally works flawlessly",
+          "score": 3210,
+          "num_comments": 187,
+          "author": "homeautomation",
+          "permalink": "/r/sample/comments/samp0023/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0024",
+          "title": "Company accused of anti-competitive practices in new lawsuit",
+          "score": 6543,
+          "num_comments": 934,
+          "author": "legalwatch",
+          "permalink": "/r/sample/comments/samp0024/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0025",
+          "title": "This coding bootcamp completely changed my career",
+          "score": 7234,
+          "num_comments": 356,
+          "author": "careerchange",
+          "permalink": "/r/sample/comments/samp0025/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0026",
+          "title": "Frustrating bug has been unresolved for over a year",
+          "score": 4567,
+          "num_comments": 612,
+          "author": "buggeduser",
+          "permalink": "/r/sample/comments/samp0026/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0027",
+          "title": "Incredible progress in renewable energy storage tech",
+          "score": 9876,
+          "num_comments": 445,
+          "author": "greenenergy",
+          "permalink": "/r/sample/comments/samp0027/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0028",
+          "title": "New privacy law could reshape how apps collect data",
+          "score": 6123,
+          "num_comments": 578,
+          "author": "policywatcher",
+          "permalink": "/r/sample/comments/samp0028/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0029",
+          "title": "This free tool replaced three paid subscriptions for me",
+          "score": 5432,
+          "num_comments": 267,
+          "author": "moneysaver",
+          "permalink": "/r/sample/comments/samp0029/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0030",
+          "title": "Disappointing keynote failed to announce anything new",
+          "score": 4321,
+          "num_comments": 823,
+          "author": "eventwatcher",
+          "permalink": "/r/sample/comments/samp0030/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0031",
+          "title": "Brilliant hack lets old hardware run modern software",
+          "score": 7654,
+          "num_comments": 334,
+          "author": "retrocomputing",
+          "permalink": "/r/sample/comments/samp0031/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0032",
+          "title": "Customer data sold without consent, investigation launched",
+          "score": 8901,
+          "num_comments": 1102,
+          "author": "watchdog_news",
+          "permalink": "/r/sample/comments/samp0032/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0033",
+          "title": "This underrated app deserves way more attention",
+          "score": 2876,
+          "num_comments": 145,
+          "author": "appreview",
+          "permalink": "/r/sample/comments/samp0033/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0034",
+          "title": "Layoffs hit engineering teams hardest this quarter",
+          "score": 5678,
+          "num_comments": 789,
+          "author": "industrynews",
+          "permalink": "/r/sample/comments/samp0034/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0035",
+          "title": "Beautifully designed interface makes daily tasks easier",
+          "score": 3987,
+          "num_comments": 201,
+          "author": "uxfan",
+          "permalink": "/r/sample/comments/samp0035/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0036",
+          "title": "Why I'm cancelling my subscription after price hike",
+          "score": 6789,
+          "num_comments": 945,
+          "author": "pricedout",
+          "permalink": "/r/sample/comments/samp0036/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0037",
+          "title": "New chip promises huge efficiency gains for laptops",
+          "score": 8234,
+          "num_comments": 367,
+          "author": "chipwatcher",
+          "permalink": "/r/sample/comments/samp0037/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0038",
+          "title": "Support team resolved my issue in record time, impressed",
+          "score": 2345,
+          "num_comments": 123,
+          "author": "gratefuluser",
+          "permalink": "/r/sample/comments/samp0038/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0039",
+          "title": "Massive DDoS attack disrupts service for several hours",
+          "score": 7890,
+          "num_comments": 1034,
+          "author": "netsecwatch",
+          "permalink": "/r/sample/comments/samp0039/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0040",
+          "title": "This lightweight app is perfect for older devices",
+          "score": 3456,
+          "num_comments": 178,
+          "author": "efficiencyfan",
+          "permalink": "/r/sample/comments/samp0040/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0041",
+          "title": "Company under fire for misleading advertising claims",
+          "score": 5432,
+          "num_comments": 687,
+          "author": "adcritic",
+          "permalink": "/r/sample/comments/samp0041/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0042",
+          "title": "Incredible community effort saves beloved open source project",
+          "score": 9012,
+          "num_comments": 456,
+          "author": "community_love",
+          "permalink": "/r/sample/comments/samp0042/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0043",
+          "title": "New update removes features users actually wanted",
+          "score": 4567,
+          "num_comments": 734,
+          "author": "featureremoved",
+          "permalink": "/r/sample/comments/samp0043/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0044",
+          "title": "This tiny device solved a problem I've had for years",
+          "score": 3210,
+          "num_comments": 165,
+          "author": "gadgetfan",
+          "permalink": "/r/sample/comments/samp0044/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0045",
+          "title": "Whistleblower reveals concerning internal practices",
+          "score": 8765,
+          "num_comments": 1287,
+          "author": "insider_report",
+          "permalink": "/r/sample/comments/samp0045/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0046",
+          "title": "Absolutely love the redesign, so much better now",
+          "score": 2987,
+          "num_comments": 189,
+          "author": "designfan",
+          "permalink": "/r/sample/comments/samp0046/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0047",
+          "title": "Server migration causes days of downtime for users",
+          "score": 6234,
+          "num_comments": 891,
+          "author": "downtimewatch",
+          "permalink": "/r/sample/comments/samp0047/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0048",
+          "title": "This free course taught me more than my degree did",
+          "score": 5123,
+          "num_comments": 278,
+          "author": "selftaught",
+          "permalink": "/r/sample/comments/samp0048/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0049",
+          "title": "Another day, another unnecessary forced update",
+          "score": 3789,
+          "num_comments": 512,
+          "author": "updatefatigue",
+          "permalink": "/r/sample/comments/samp0049/post/"
+        }
+      }
+    ]
+  }
+}
