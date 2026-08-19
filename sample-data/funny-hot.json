@@ -1,0 +1,229 @@
+{
+  "kind": "Listing",
+  "data": {
+    "after": null,
+    "before": null,
+    "children": [
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0000",
+          "title": "My dog just discovered his reflection and it's the best thing ever",
+          "score": 24521,
+          "num_comments": 891,
+          "author": "dogmom22",
+          "permalink": "/r/funny/comments/samp0000/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0001",
+          "title": "Accidentally sent a text meant for my friend to my boss",
+          "score": 18234,
+          "num_comments": 1203,
+          "author": "oops_moment",
+          "permalink": "/r/funny/comments/samp0001/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0002",
+          "title": "This raccoon has better life skills than me",
+          "score": 19876,
+          "num_comments": 743,
+          "author": "wildlifewatcher",
+          "permalink": "/r/funny/comments/samp0002/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0003",
+          "title": "My toddler's explanation for the broken vase is a masterpiece",
+          "score": 15432,
+          "num_comments": 567,
+          "author": "parentlife",
+          "permalink": "/r/funny/comments/samp0003/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0004",
+          "title": "Autocorrect ruined my anniversary message and now it's a meme",
+          "score": 21098,
+          "num_comments": 998,
+          "author": "phonefails",
+          "permalink": "/r/funny/comments/samp0004/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0005",
+          "title": "Cat knocked over my coffee and looked me dead in the eyes",
+          "score": 27654,
+          "num_comments": 1456,
+          "author": "catowner99",
+          "permalink": "/r/funny/comments/samp0005/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0006",
+          "title": "Tried to be smooth at the gym, ended up under the treadmill",
+          "score": 14210,
+          "num_comments": 612,
+          "author": "gymfails",
+          "permalink": "/r/funny/comments/samp0006/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0007",
+          "title": "My grandma just discovered emojis and it's chaos",
+          "score": 22987,
+          "num_comments": 834,
+          "author": "familytexts",
+          "permalink": "/r/funny/comments/samp0007/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0008",
+          "title": "Ordered a small pizza, got questioned about my life choices",
+          "score": 12765,
+          "num_comments": 445,
+          "author": "pizzalover",
+          "permalink": "/r/funny/comments/samp0008/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0009",
+          "title": "The way my cat judges me every morning is personal",
+          "score": 19234,
+          "num_comments": 678,
+          "author": "catlife",
+          "permalink": "/r/funny/comments/samp0009/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0010",
+          "title": "My roommate labeled everything in the fridge, including the air",
+          "score": 16543,
+          "num_comments": 512,
+          "author": "roommatetales",
+          "permalink": "/r/funny/comments/samp0010/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0011",
+          "title": "Tried a new recipe, kitchen now looks like a crime scene",
+          "score": 13432,
+          "num_comments": 389,
+          "author": "cookingfails",
+          "permalink": "/r/funny/comments/samp0011/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0012",
+          "title": "My plant died and I don't even know how, it was plastic",
+          "score": 25678,
+          "num_comments": 1102,
+          "author": "plantparent_fail",
+          "permalink": "/r/funny/comments/samp0012/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0013",
+          "title": "Neighbor's rooster thinks 3am is a reasonable time to exist",
+          "score": 17890,
+          "num_comments": 734,
+          "author": "sleepdeprived",
+          "permalink": "/r/funny/comments/samp0013/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0014",
+          "title": "Just realized I've been pronouncing this word wrong for 20 years",
+          "score": 20432,
+          "num_comments": 891,
+          "author": "wordfails",
+          "permalink": "/r/funny/comments/samp0014/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0015",
+          "title": "My cat brought me a leaf like it was a prize kill",
+          "score": 18765,
+          "num_comments": 623,
+          "author": "proudcatparent",
+          "permalink": "/r/funny/comments/samp0015/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0016",
+          "title": "Tried to parallel park, audience gathered, I gave up gracefully",
+          "score": 11234,
+          "num_comments": 356,
+          "author": "drivingfails",
+          "permalink": "/r/funny/comments/samp0016/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0017",
+          "title": "My kid asked why the moon follows the car, I had no answer",
+          "score": 23456,
+          "num_comments": 945,
+          "author": "kidquestions",
+          "permalink": "/r/funny/comments/samp0017/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0018",
+          "title": "Accidentally called my teacher mom, she's still bringing it up",
+          "score": 26789,
+          "num_comments": 1287,
+          "author": "schoolmemories",
+          "permalink": "/r/funny/comments/samp0018/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0019",
+          "title": "The dog ate my homework became my actual reality today",
+          "score": 14567,
+          "num_comments": 478,
+          "author": "unluckyme",
+          "permalink": "/r/funny/comments/samp0019/post/"
+        }
+      }
+    ]
+  }
+}

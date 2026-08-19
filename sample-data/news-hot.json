@@ -1,0 +1,174 @@
+{
+  "kind": "Listing",
+  "data": {
+    "after": null,
+    "before": null,
+    "children": [
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0000",
+          "title": "City council approves new public transit expansion plan",
+          "score": 6234,
+          "num_comments": 389,
+          "author": "localnews_watch",
+          "permalink": "/r/news/comments/samp0000/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0001",
+          "title": "Unemployment rate drops to lowest level in a decade",
+          "score": 9876,
+          "num_comments": 567,
+          "author": "econreporter",
+          "permalink": "/r/news/comments/samp0001/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0002",
+          "title": "Severe storm causes widespread power outages across region",
+          "score": 8123,
+          "num_comments": 734,
+          "author": "weatherwatch",
+          "permalink": "/r/news/comments/samp0002/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0003",
+          "title": "New hospital wing opens, expanding emergency care capacity",
+          "score": 5432,
+          "num_comments": 234,
+          "author": "healthnews_daily",
+          "permalink": "/r/news/comments/samp0003/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0004",
+          "title": "Investigation reveals mismanagement of public funds",
+          "score": 11234,
+          "num_comments": 1023,
+          "author": "watchdog_reporter",
+          "permalink": "/r/news/comments/samp0004/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0005",
+          "title": "Local school district announces record graduation rates",
+          "score": 6789,
+          "num_comments": 289,
+          "author": "educationbeat",
+          "permalink": "/r/news/comments/samp0005/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0006",
+          "title": "Wildfire forces evacuation of thousands from nearby towns",
+          "score": 12456,
+          "num_comments": 1345,
+          "author": "emergencyupdates",
+          "permalink": "/r/news/comments/samp0006/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0007",
+          "title": "Community rallies to rebuild after devastating storm damage",
+          "score": 7890,
+          "num_comments": 456,
+          "author": "communitynews",
+          "permalink": "/r/news/comments/samp0007/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0008",
+          "title": "New policy aims to reduce homelessness in downtown area",
+          "score": 6543,
+          "num_comments": 612,
+          "author": "citywatch",
+          "permalink": "/r/news/comments/samp0008/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0009",
+          "title": "Public transit strike enters second week, commuters frustrated",
+          "score": 9012,
+          "num_comments": 934,
+          "author": "transitnews",
+          "permalink": "/r/news/comments/samp0009/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0010",
+          "title": "Volunteers plant thousands of trees in city-wide initiative",
+          "score": 5678,
+          "num_comments": 198,
+          "author": "greeninitiative",
+          "permalink": "/r/news/comments/samp0010/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0011",
+          "title": "Crime rates fall for third consecutive year, officials say",
+          "score": 8234,
+          "num_comments": 445,
+          "author": "crimebeat",
+          "permalink": "/r/news/comments/samp0011/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0012",
+          "title": "Factory closure leaves hundreds of workers without jobs",
+          "score": 10123,
+          "num_comments": 1189,
+          "author": "laboreconomy",
+          "permalink": "/r/news/comments/samp0012/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0013",
+          "title": "New law expands access to affordable healthcare",
+          "score": 7345,
+          "num_comments": 523,
+          "author": "policywatch",
+          "permalink": "/r/news/comments/samp0013/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0014",
+          "title": "Bridge closure causes major traffic delays across the city",
+          "score": 6012,
+          "num_comments": 378,
+          "author": "infrastructurewatch",
+          "permalink": "/r/news/comments/samp0014/post/"
+        }
+      }
+    ]
+  }
+}

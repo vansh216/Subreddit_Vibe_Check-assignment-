@@ -1,0 +1,174 @@
+{
+  "kind": "Listing",
+  "data": {
+    "after": null,
+    "before": null,
+    "children": [
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0000",
+          "title": "Researchers discover new species in remote ocean trench",
+          "score": 14523,
+          "num_comments": 612,
+          "author": "marinebio_fan",
+          "permalink": "/r/science/comments/samp0000/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0001",
+          "title": "Study finds surprising link between sleep and memory retention",
+          "score": 11234,
+          "num_comments": 445,
+          "author": "sleepscience",
+          "permalink": "/r/science/comments/samp0001/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0002",
+          "title": "New telescope captures stunning images of distant galaxy",
+          "score": 19876,
+          "num_comments": 734,
+          "author": "astronomylover",
+          "permalink": "/r/science/comments/samp0002/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0003",
+          "title": "Experimental treatment shows promise for rare genetic disorder",
+          "score": 13456,
+          "num_comments": 523,
+          "author": "medresearch",
+          "permalink": "/r/science/comments/samp0003/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0004",
+          "title": "Scientists baffled by unexpected results in particle experiment",
+          "score": 8765,
+          "num_comments": 891,
+          "author": "physicsnerd",
+          "permalink": "/r/science/comments/samp0004/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0005",
+          "title": "Breakthrough could make desalination dramatically more efficient",
+          "score": 12098,
+          "num_comments": 456,
+          "author": "watertech",
+          "permalink": "/r/science/comments/samp0005/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0006",
+          "title": "New study raises concerns about microplastics in drinking water",
+          "score": 9432,
+          "num_comments": 723,
+          "author": "envscience",
+          "permalink": "/r/science/comments/samp0006/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0007",
+          "title": "Fossil discovery rewrites timeline of early human evolution",
+          "score": 16234,
+          "num_comments": 612,
+          "author": "paleoanthro",
+          "permalink": "/r/science/comments/samp0007/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0008",
+          "title": "Researchers develop material that could revolutionize batteries",
+          "score": 10987,
+          "num_comments": 389,
+          "author": "materialscience",
+          "permalink": "/r/science/comments/samp0008/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0009",
+          "title": "Study confirms link between air pollution and cognitive decline",
+          "score": 8654,
+          "num_comments": 645,
+          "author": "publichealth_sci",
+          "permalink": "/r/science/comments/samp0009/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0010",
+          "title": "Incredible footage captures rare deep-sea creature behavior",
+          "score": 15678,
+          "num_comments": 534,
+          "author": "deepsea_explorer",
+          "permalink": "/r/science/comments/samp0010/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0011",
+          "title": "New algorithm helps predict earthquakes with greater accuracy",
+          "score": 11456,
+          "num_comments": 398,
+          "author": "geoscience_fan",
+          "permalink": "/r/science/comments/samp0011/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0012",
+          "title": "Failed experiment leads to accidental but useful discovery",
+          "score": 9234,
+          "num_comments": 467,
+          "author": "labstories",
+          "permalink": "/r/science/comments/samp0012/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0013",
+          "title": "Climate models underestimated pace of Arctic ice loss, study finds",
+          "score": 13210,
+          "num_comments": 891,
+          "author": "climatedata",
+          "permalink": "/r/science/comments/samp0013/post/"
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "samp0014",
+          "title": "Gene therapy trial restores partial vision in blind patients",
+          "score": 17890,
+          "num_comments": 723,
+          "author": "medbreakthrough",
+          "permalink": "/r/science/comments/samp0014/post/"
+        }
+      }
+    ]
+  }
+}
